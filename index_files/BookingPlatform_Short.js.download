@@ -1,0 +1,194 @@
+﻿
+/*!
+ * JavaScript code for dropdown menu (created: December 06, 2023 19:28:16, Hash: 9805, UID_CRC: 174E7AF2)
+ * Copyright (c) 2003-2023 Dropdown Menu Generator. All rights reserved.
+ * https://www.dropdownmenugenerator.com
+ */
+
+
+function AddGlyphs(Path){
+cmn.RegWbFnt('MG_Icons','MG_Icons',Path+'MG_Icons','r553797703',true);
+};
+
+function AddCss_BookingPlatform(Path,HostURL){
+var Css='.A386MainMenuDIV *, .A386SubMenuDIV * {-webkit-box-sizing: content-box !important;-moz-box-sizing: content-box !important;box-sizing: content-box !important;}.A386MainMenuDIV TD, .A386SubMenuDIV TD {vertical-align: middle;border: none;padding: 0px;}.A386Defaults {color: #674242;OverlapVertical: 1px;OverlapHorizontal: 5px;}.A386IconTD, .A386TitleTD, .A386ArrowTD, .A386HeaderTD, .A386TitleTD * {text-shadow: none;font-size: 12px;font-family: Arial;white-space: nowrap;padding: 0px;line-height: normal;vertical-align: middle;}.A386TitleTD {text-align: left;}.A386IconTD font, .A386ArrowTD font {margin: 0 !important;display: block !important;padding: 0px;line-height: 12px;}.A386MainMenuDIV {padding: 4px;background-color: #FCFCFC;cursor: default;}.A386MainMenuDIV .A386HeaderTD {text-align: left;padding: 3px !important;padding-left: 6px !important;padding-right: 6px !important;color: #ABABAB;background-color: #EBEBEB;}.A386MainMenuDIV TABLE {width: auto;border: none;border-collapse: separate;margin: 0px;padding: 0px;}.A386MainMenuDIV{display:-moz-inline-stack;display:inline-block;zoom:1;*display:inline;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.A386MainMenuItemTD {padding: 6px !important;padding-left: 6px !important;padding-right: 6px !important;}.A386MainMenuItemTD .A386TitleTD, .A386MainMenuItemTD .A386IconTD, .A386MainMenuItemTD .A386ArrowTD {color: #664242;}.A386MainMenuItemHoveredTD {padding: 6px !important;padding-left: 6px !important;padding-right: 6px !important;background-color: #674242;cursor: default;cursor: hand;cursor: pointer;}.A386MainMenuItemHoveredTD .A386TitleTD, .A386MainMenuItemHoveredTD .A386IconTD, .A386MainMenuItemHoveredTD .A386ArrowTD {color: #FCFCFC;}.A386MainMenuItemSelectedTD {padding: 6px !important;padding-left: 6px !important;padding-right: 6px !important;background-color: #E7E7E7;}.A386MainMenuItemSelectedTD .A386TitleTD, .A386MainMenuItemSelectedTD .A386IconTD, .A386MainMenuItemSelectedTD .A386ArrowTD {color: #664242;}.A386SubMenuDIV {-moz-box-sizing: content-box;-webkit-box-sizing: content-box;box-sizing: content-box;padding: 4px;background-color: #674242;cursor: default;filter: alpha(opacity=98);-moz-opacity: 0.98;opacity: 0.98;}.A386SubMenuDIV .A386HeaderTD {text-align: left;padding: 3px !important;padding-left: 6px !important;padding-right: 6px !important;color: #B58D8D;background-color: #885858;}.A386SubMenuDIV TABLE {border: none;border-collapse: separate;width: auto !important;margin: 0px;padding: 0px;}.A386SubMenuItemTD, .A386SubResDIV {padding: 6px !important;padding-left: 7px !important;padding-right: 7px !important;}.A386SubMenuItemTD .A386TitleTD, .A386SubMenuItemTD .A386IconTD, .A386SubMenuItemTD .A386ArrowTD, .A386SubResDIV {color: #FCFCFC;}.A386SubMenuItemHoveredTD, .A386SubResDIV:hover {padding: 6px !important;padding-left: 7px !important;padding-right: 7px !important;background-color: #FDFDFD;cursor: default;cursor: hand;cursor: pointer;}.A386SubMenuItemHoveredTD .A386TitleTD, .A386SubMenuItemHoveredTD .A386IconTD, .A386SubMenuItemHoveredTD .A386ArrowTD, .A386SubResDIV:hover {color: #664242;}.A386SubMenuItemSelectedTD {padding: 6px !important;padding-left: 7px !important;padding-right: 7px !important;background-color: #9E6A6A;}.A386SubMenuItemSelectedTD .A386TitleTD, .A386SubMenuItemSelectedTD .A386IconTD, .A386SubMenuItemSelectedTD .A386ArrowTD {color: #FCFCFC;}.A386SeparatorVerticalTD {padding: 0px !important;border-left-style: solid !important;border-left-width: 1px !important;border-left-color: #B7B7B7 !important;}.A386SeparatorHorizontalTD {padding: 0px !important;border-top-style: solid !important;border-top-width: 1px !important;border-top-color: #915E5E !important;}.A386MainMenuDIV .A386SeparatorHorizontalTD {padding: 0px !important;border-top-style: solid !important;border-top-width: 1px !important;border-top-color: #B7B7B7 !important;}.A386MltClmnSepar1TD {padding-left: 5px !important;}.A386MltClmnSepar2TD {padding-right: 5px !important;border-right-style: solid !important;border-right-width: 1px !important;border-right-color: #915E5E !important;}.A386SepVertHorSubmTD {border-left-color: #915E5E !important;}.A386TooltipDIV {font-family: Arial;font-size: 12px;color: #555555;padding: 3px;padding-left: 5px;padding-right: 5px;background-color: #F8F8F8;border: solid 1px #888888;}.A386TooltipDIV {-webkit-box-shadow: 3px 3px 7px 0px rgba(50, 50, 50, 0.20); -moz-box-shadow: 3px 3px 7px 0px rgba(50, 50, 50, 0.20); box-shadow: 3px 3px 7px 0px rgba(50, 50, 50, 0.20);border-radius: 3px; -webkit-border-radius:3px; -khtml-border-radius:3px; -moz-border-radius:3px;}.A386IconTD {color: #000000;vertical-align: middle;text-align: center;}.A386IconTD font {font-size: 16px;padding-left: 2px;padding-right: 8px;width: 16px;}.A386ArrowNotitleTD font {padding-left: 0px !important;}.A386SubResDIV {font-family: Arial;font-size: 12px;color: #FCFCFC;padding: 4px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;vertical-align: middle;line-height: 16px;}.A386SubResDIV font {margin-top: 0px;margin-right: 8px;font-size: 16px;float: left;}.A386SubResDIV:hover {color: #664242;}';
+
+
+cmn.RegPageCss('Style_Menu_A386',Css,true);};
+var gbd4Hirq0nTydBookingPlatform='mnF152A56E';
+var mnF152A56Ei=function(){dm.i('mnF152A56E',0);};
+var mnF152A56EL = null;
+function mnF152A56ELCn(Path){
+this.id='BookingPlatform';
+this.uid='BookingPlatform';
+this.sfu=Path;
+this.ccp='A386';
+this.EmpHtm=Path+'Empty.htm';
+this.PngShdCnt=0;
+this.o=1;
+this.ed=1;
+this.TrEff=true;
+this.TrSpd=5;
+this.ho=5;
+this.vo=1;
+this.zi=999998;
+this.smo='1';
+this.smc='1';
+this.hpth='false';
+this.ocDth=20;
+this.ocDt=250;
+this.HovIts=null;
+this.SelIts=null;
+this.SMH='10000';
+this.nids='<ii1/><ii2><ih3/><ii4/><ii33/><ii34/><ii35/><ii36/><ii37/><ii38/><ii5/><ii40/><ii39/><ii43/><ii42/><ii41/><ii6/></ii2><ii11><ii12/><ii24/><ii26><ii32/><ii31/><ii30/><ii29/></ii26><ii13/></ii11><ii15><ii20/><ii16/><ii21><ii23/><ii8><ii9/><ii10/></ii8></ii21></ii15><ii25/>';
+this.SbmAtHd=true;
+this.PosVertTyp='1';
+this.ttt_mnF152A56E_i1='Go to Home Page';
+};
+
+var BookingPlatform={
+    _path:'',
+    _div:'',
+    _SbMnu:false,
+    Mnu:'',
+    Plcd:false,
+    ItmsCnt:35,CCP:'A386',
+    Prepare:function(){
+        var Ident='BookingPlatform';
+        var Path=BookingPlatform._path;
+        var HostURL='';
+
+        if(Path==''||Path==null||Path==undefined){
+            Path='./'+Ident+'/';
+            var e=document.getElementsByTagName('script');
+            var src=null;
+            var attr=null;
+            var IdentLw=Ident.toLowerCase();
+            var Ind=-1;
+            var attrLw='';
+            for(var i=0;i<e.length;i++){
+                src=e[i].attributes['src'];
+                if(src&&src!=null&&src!=undefined&&src!=''){
+                    attr=src.value;
+                    if(attr&&attr!=null&&attr!=undefined&&attr!=''){
+                        attrLw=attr.toLowerCase();
+                        Ind=attrLw.lastIndexOf('/'+IdentLw+'.js');
+                        if(Ind>-1){
+                            Path=attr.substring(0,Ind);
+                            break;
+                        }
+                        Ind=attrLw.lastIndexOf('/'+IdentLw+'_short.js');
+                        if(Ind>-1){
+                            Path=attr.substring(0,Ind);
+                            break;
+                        }
+                        Ind=attrLw.indexOf(IdentLw+'/script.js');
+                        if(Ind>-1){
+                            Path=attr.substring(0,Ind)+Ident;
+                            break;
+                        }
+                    }
+                }
+            }
+        
+            var PrmInd=0;
+            PrmInd=Path.indexOf('?');
+            if(PrmInd>0)Path=Path.substring(0,PrmInd);
+
+            Path=Path.replace(/(\r\n|\n|\r)/gm,'');/*Line Breaks*/
+        }
+
+        var lst=Path.substring(Path.length-1);
+        if(lst!='/')Path=Path+'/';
+
+        var gl=function(h){var l=document.createElement('a');l.href=h;return l;};
+        var l=gl(Path);
+        HostURL='//'+l.hostname;
+        if(l.protocol!=':')HostURL=l.protocol+HostURL;
+AddGlyphs(HostURL+'/Glyphs/');
+
+AddCss_BookingPlatform(Path,HostURL);
+mnF152A56EL=new mnF152A56ELCn(Path);BookingPlatform.Mnu='<div><input id="sit_mnF152A56E_vs" name="sit_mnF152A56E_vs" type="hidden" value="" /></div><div class="A386MainMenuDIV A386RespMainMenuDIV" style="display:none;text-align:right;" id="mnF152A56E_Mob" onclick="dm.RspSubShHd(\'mnF152A56E\');"><table border="0" cellpadding="0" cellspacing="0" style="margin-left:auto;margin-right:0px;width:100%;"><tr><td onmouseover="dm.MrkItm(this,\'h\',1,\'mnF152A56E\');" onmouseout="dm.MrkItm(this,\'n\',1,\'mnF152A56E\');" class="A386MainMenuItemTD"><table border="0" cellpadding="0" cellspacing="0" style="width:100%;"><tr><td style="text-align:left !important;" class="A386TitleTD">&nbsp;&nbsp;Menu</td><td class="A386IconTD"><font class="MG_Icons" style="float:right;" id="mnF152A56E_MobIcn">&#xe777;</font></td></tr></table></td></tr></table></div><div id="mnF152A56E_-0p" class="A386MainMenuDIV" onmouseover="dm.vD();" onmouseout="dm.uD();" style="z-index:999999;position:static;vertical-align:top;"><table border="0" cellspacing="0" cellpadding="0" style="display:inline-block;vertical-align:top;" onclick="dm.mc();"><tr><td onmouseout="dm.u(this);" id="mnF152A56E_i1" onclick="dm.ItClk(this,\'\',\'1\');cmn.href(\'https://www.dropdownmenugenerator.com/\',\'\');" class="A386MainMenuItemTD" onmouseover="dm.v(this, 1);"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="A386IconTD"><font class="MG_Icons">&#xe721;</font></td><td class="A386TitleTD" id="mnF152A56E_i1-tl">Home</td><td class="A386ArrowTD">&nbsp;</td></tr></table></td><td onmouseout="dm.u(this);" id="mnF152A56E_i2" onclick="dm.ItClk(this,\'\',\'1\');" class="A386MainMenuItemTD" onmouseover="dm.v(this, 1);"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="A386IconTD"><font class="MG_Icons">&#xe728;</font></td><td class="A386TitleTD" id="mnF152A56E_i2-tl">Party Life</td><td class="A386ArrowTD"><font class="MG_Icons" style="font-size:16px;width:13px;padding-left:6px;">&#xe920;</font></td></tr></table></td><td onmouseout="dm.u(this);" id="mnF152A56E_i11" onclick="dm.ItClk(this,\'\',\'1\');" class="A386MainMenuItemTD" onmouseover="dm.v(this, 1);"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="A386IconTD"><font class="MG_Icons">&#xe72b;</font></td><td class="A386TitleTD" id="mnF152A56E_i11-tl">Support</td><td class="A386ArrowTD"><font class="MG_Icons" style="font-size:16px;width:13px;padding-left:6px;">&#xe920;</font></td></tr></table></td><td class="A386SeparatorVerticalTD"><table border="0" cellpadding="0" cellspacing="0"><tr><td style="width:1px;height:1px;" /></tr></table></td><td onmouseout="dm.u(this);" id="mnF152A56E_i15" onclick="dm.ItClk(this,\'\',\'1\');" class="A386MainMenuItemTD" onmouseover="dm.v(this, 1);"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="A386IconTD"><font class="MG_Icons">&#xe723;</font></td><td class="A386TitleTD" id="mnF152A56E_i15-tl">Company</td><td class="A386ArrowTD"><font class="MG_Icons" style="font-size:16px;width:13px;padding-left:6px;">&#xe920;</font></td></tr></table></td><td onmouseout="dm.u(this);" id="mnF152A56E_i25" onclick="dm.ItClk(this,\'\',\'1\');" class="A386MainMenuItemTD" onmouseover="dm.v(this, 1);"><table border="0" cellspacing="0" cellpadding="0"><tr><td class="A386IconTD">&nbsp;</td><td class="A386TitleTD" id="mnF152A56E_i25-tl">List Your Service</td><td class="A386ArrowTD">&nbsp;</td></tr></table></td></tr></table></div>';var s0='-p" style="Z-INDEX:999999;height:auto;visibility:hidden;POSITION:absolute;LEFT:1px;TOP:1px;WIDTH:auto;padding:0px;"><div<t>SubMenuDIV" onclick="dm.mc();" onmouseover="dm.vD();" onmouseout="dm.uD();<c> id="<r>_i';var s1='<j>ArrowTD<f></table></div></div><div id="<r>_i';var s2='-smt"><g><r>_i';var s3='<j>ArrowTD<f><g><r>_i';var s4='<j>ArrowTD<o> style="font-size:16px;width:10px;padding-left:10px;">&#';var s5=';<d>onmouseout="dm.u(this);<k>_i';var s6=';</font></td></tr></table></td></tr></table></div></div><div id="<r>_i';var s8='\');<l>4<y>>&#xe';var s9='<n>\'\',\'1\<z>https://www.facebook.com/';BookingPlatform.SubMnu='<div id="<r>ifc"></div><div id="<r>_i2'+s0+'2-smt"><tr><td style="display:none;"<t>HeaderTD">Party hard!</td></tr><tr><td style="empty-cells:show;"><div style="height:4px;" /></td></tr><g><r>_i4<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i4-tl">Music'+s3+'33<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i33-tl">Entertainers'+s3+'34<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i34-tl">Grooming'+s3+'35<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i35-tl">Decor'+s3+'36<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i36-tl">Food &amp; Beverage'+s3+'37<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i37-tl">Outdoor Fun'+s3+'38<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i38-tl">Photos &amp; Videos'+s3+'5<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i5-tl">Festivals'+s3+'40<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i40-tl">Transport'+s3+'39<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i39-tl">Rentals &amp; Supplies'+s3+'43<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i43-tl">Impersonate'+s3+'42<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i42-tl">Nightlife'+s3+'41<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i41-tl">Wedding Services'+s3+'6<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i6-tl">Party Planning<j>ArrowTD<f><tr><td colspan="3" style="empty-cells:show;"><div style="height:4px;" /></td></tr><tr><td colspan="3"<t>SeparatorHorizontalTD" style="empty-cells:show;"><div><table border="0" cellpadding="0" cellspacing="0"><tr><td style="width:1px;height:1px;" /></tr></table></div></td></tr><tr><td colspan="3" style="empty-cells:show;"><div style="height:4px;" /></td></tr></table></div></div><div id="<r>_i11'+s0+'11'+s2+'12<n>\'\',\'1\');<l>2<y>>&#xe748;<h>12-tl">User Manual'+s3+'24<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i24-tl">Terms &amp; Condition'+s3+'26<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i26-tl">Policies'+s4+'xea20'+s5+'13<n>\'\',\'1\');<l>2<y>>&#xe72a;<h>13-tl">FAQs'+s1+'26'+s0+'26'+s2+'32<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i32-tl">Privacy Policy'+s3+'31<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i31-tl">Terms of Use'+s3+'30<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i30-tl">CA Privacy'+s3+'29<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i29-tl">AI Usage Policy'+s1+'15'+s0+'15'+s2+'20<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i20-tl">Blog'+s3+'16<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i16-tl">About Us'+s3+'21<n>\'\',\'1\');<l>2);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i21-tl">Contact Us'+s4+'xea20'+s6+'21'+s0+'21'+s2+'23<n>\'\',\'1\');<l>3);<c>><tr><td<t>IconTD">&nbsp;<j>TitleTD<k>_i23-tl">Join Us - Careers'+s3+'8<n>\'\',\'1\');<l>3<y>>&#xe77d;<h>8-tl">Follow Us'+s4+'xea20'+s6+'8'+s0+'8'+s2+'9'+s9+'\',\'_blank'+s8+'75b;<h>9-tl">Facebook'+s3+'10<n>\'\',\'1\<z>https://twitter.com/\',\'_blank'+s8+'75c;<h>10-tl">Twitter<j>ArrowTD<f></table></div></div><div id="<r>_Mob-p"<t>RespSubMenuDIV" style="visibility:hidden;overflow:hidden;padding:0px;left:1px;top:1px;width:1px;height:1px;position:absolute;z-index:1000000;"><div<t>SubMenuDIV"><div<t>SubResDIV" style="padding-left:8px !important;       " onclick="cmn.href(&#39;https://www.dropdownmenugenerator.com/&#39;,&#39;&#39;);dm.RspSubHd(&#39;<r>&#39;);<o>>&#xe721;</font>Home</div><div<t>SubResDIV" style="float:right;" onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i2&#39;);"><font id="RspExpIcn_<r>_i2" style="margin-right:0px;" class="MG_Icons">&#xe920;</font><0>8px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i2&#39;);<o>>&#xe728;</font>Party Life</div><div id="MobSub_<r>_i2" style="display:none;"><div<t>SubResDIV" style="padding-left:40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i4&#39;);">Music<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i33&#39;);">Entertainers<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i34&#39;);">Grooming<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i35&#39;);">Decor<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i36&#39;);">Food &amp; Beverage<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i37&#39;);">Outdoor Fun<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i38&#39;);">Photos &amp; Videos<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i5&#39;);">Festivals<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i40&#39;);">Transport<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i39&#39;);">Rentals &amp; Supplies<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i43&#39;);">Impersonate<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i42&#39;);">Nightlife<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i41&#39;);">Wedding Services<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i6&#39;);">Party Planning</div></div><div<t>SubResDIV" style="float:right;" onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i11&#39;);"><font id="RspExpIcn_<r>_i11" style="margin-right:0px;" class="MG_Icons">&#xe920;</font><0>8px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i11&#39;);<o>>&#xe72b;</font>Support</div><div id="MobSub_<r>_i11" style="display:none;"><div<t>SubResDIV" style="padding-left:40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i12&#39;);<o>>&#xe748;</font>User Manual<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i24&#39;);">Terms &amp; Condition</div><div<t>SubResDIV" style="float:right;" onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i26&#39;);"><font id="RspExpIcn_<r>_i26" style="margin-right:0px;" class="MG_Icons">&#xe920;</font><0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i26&#39;);">Policies</div><div id="MobSub_<r>_i26" style="display:none;"><div<t>SubResDIV" style="padding-left:72px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i32&#39;);">Privacy Policy<0>72px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i31&#39;);">Terms of Use<0>72px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i30&#39;);">CA Privacy<0>72px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i29&#39;);">AI Usage Policy</div><0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i13&#39;);<o>>&#xe72a;</font>FAQs</div></div><div<t>SubResDIV" style="float:right;" onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i15&#39;);"><font id="RspExpIcn_<r>_i15" style="margin-right:0px;" class="MG_Icons">&#xe920;</font><0>8px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i15&#39;);<o>>&#xe723;</font>Company</div><div id="MobSub_<r>_i15" style="display:none;"><div<t>SubResDIV" style="padding-left:40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i20&#39;);">Blog<0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i16&#39;);">About Us</div><div<t>SubResDIV" style="float:right;" onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i21&#39;);"><font id="RspExpIcn_<r>_i21" style="margin-right:0px;" class="MG_Icons">&#xe920;</font><0>40px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i21&#39;);">Contact Us</div><div id="MobSub_<r>_i21" style="display:none;"><div<t>SubResDIV" style="padding-left:72px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i23&#39;);">Join Us - Careers</div><div<t>SubResDIV" style="float:right;" onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i8&#39;);"><font id="RspExpIcn_<r>_i8" style="margin-right:0px;" class="MG_Icons">&#xe920;</font><0>72px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i8&#39;);<o>>&#xe77d;</font>Follow Us</div><div id="MobSub_<r>_i8" style="display:none;"><div<t>SubResDIV" style="padding-left:104px !important;       " onclick="cmn.href(&#39;https://www.facebook.com/&#39;,&#39;_blank&#39;);dm.RspSubHd(&#39;<r>&#39;);<o>>&#xe75b;</font>Facebook<0>104px !important;       " onclick="cmn.href(&#39;https://twitter.com/&#39;,&#39;_blank&#39;);dm.RspSubHd(&#39;<r>&#39;);<o>>&#xe75c;</font>Twitter</div></div></div><0>8px !important;       " onclick="dm.RspExCll(&#39;<r>&#39;,&#39;i25&#39;);">List Your Service</div></div></div>';BookingPlatform.SubMnu=cmn.DeCompact(BookingPlatform.SubMnu,'A386','mnF152A56E','MG_Icons', '1');
+    },
+
+    addEvent:function(el,evnt,func){
+        try{
+            if(el.addEventListener){
+                el.addEventListener(evnt, func, false);
+            }else if(el.attachEvent){
+                el.attachEvent('on'+evnt, func);
+            }
+        }catch(e){}
+    },
+
+    GetDst:function(){
+        var DstID=BookingPlatform._div;
+        if(DstID=='')DstID='BookingPlatform';
+        var Dst=cmn.Mko(DstID);
+        return Dst;
+    },
+
+    PlaceAuto:function(p,d,sb){
+        BookingPlatform.Plcd=false;
+        BookingPlatform._path='';
+        BookingPlatform._div='';
+        BookingPlatform._SbMnu=false;
+        if(p!=null&&p!=undefined&&p!=''){BookingPlatform._path=p;}
+        if(d!=null&&d!=undefined&&d!=''){BookingPlatform._div=d;}
+        if(sb==true){BookingPlatform._SbMnu=true;}
+        BookingPlatform.Prepare();
+        BookingPlatform.addEvent(window,'load',BookingPlatform.PutInDIV);
+        BookingPlatform.PutInDIV_TO(0);
+    },
+
+    PutInDIV_TO:function(t){
+        var Dst=BookingPlatform.GetDst();
+        if(Dst==null||Dst==undefined){
+            if(t<50){
+                t++;
+                setTimeout('BookingPlatform.PutInDIV_TO('+t+');',50);
+                return;
+            }
+        }else{
+            BookingPlatform.PutInDIV();
+        }
+    },
+
+    PutInDIV:function(){
+        if(BookingPlatform.Plcd==true)return;
+        var Dst=BookingPlatform.GetDst();
+        if(Dst==null||Dst==undefined){
+            return;
+        }
+
+
+        if(BookingPlatform._SbMnu==true){
+            Dst.innerHTML=BookingPlatform.Mnu+BookingPlatform.SubMnu;
+        }else{
+            Dst.innerHTML=BookingPlatform.Mnu;
+            var Dv=document.createElement('DIV');
+            Dv.innerHTML=BookingPlatform.SubMnu;
+            document.body.appendChild(Dv);
+        }
+
+        setTimeout('mnF152A56Ei()',10);
+        BookingPlatform.Plcd=true;
+        var Mnu=cmn.Mko('mnF152A56E_-0p');
+        if(Mnu!=null){
+            var ShMn=function(){
+                Mnu.childNodes[0].style.visibility='visible';
+            };
+            setTimeout(ShMn,20);
+        }
+    },
+    
+    Show:function(){
+        BookingPlatform.Plcd=false;
+        BookingPlatform.Prepare();
+        document.write(BookingPlatform.Mnu+BookingPlatform.SubMnu);
+        setTimeout('mnF152A56Ei()',10);
+        BookingPlatform.Plcd=true;
+    }
+
+};
+BookingPlatform.PlaceAuto();
